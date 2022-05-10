@@ -1,0 +1,42 @@
+.mainTitle {
+  margin-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 165px;
+  height: 58px;
+}
+.mainPicture {
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.allcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.mainsite {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(88, 89, 91);
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+}
+.subsite {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(88, 89, 91);
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+}
+.nav {
+  margin-top: 60px;
+}
+.nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
