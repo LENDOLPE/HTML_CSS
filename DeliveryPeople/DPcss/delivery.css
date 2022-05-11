@@ -1,0 +1,83 @@
+@font-face {
+  src: url("../Font/BMJUA_ttf.ttf");
+  font-family: "Jua";
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "jua";
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.MainBackground {
+  height: 100%;
+  width: 100%;
+  background-color: #f0e8d9;
+  position: absolute;
+  text-align: center;
+  overflow: auto;
+}
+.MainTitle {
+  font-size: 64px;
+  margin: 75px;
+}
+.SubTitle {
+  font-size: 32px;
+  margin-top: 35px;
+  margin-bottom: 75px;
+}
+.Overlap-Chain {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.First-Explanation {
+  background-color: white;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Overlap-how {
+  margin-top: -4px;
+  margin-bottom: 0px;
+  padding: 20px 20px;
+  font-size: 32px;
+}
+.Overlap-how-one {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px 20px 16px 20px;
+}
+.Overlap-know {
+  padding-bottom: 20px;
+  color: #0000ee;
+  font-size: 16px;
+}
+.Overlap-Chain {
+  margin-top: 50px;
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Last-know {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  color: #0000ee;
+  font-size: 16px;
+}
