@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Noto Sans KR", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 body {
@@ -11,53 +9,42 @@ body {
 }
 
 .login-form {
-  margin-left: auto;
-  margin-right: auto;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  margin: -150px;
-  text-align: left;
-  width: 300px;
+  padding: 20px;
   background-color: #eeeff1;
-}
-
-.text-fielda {
-  font-size: 14px;
-  border: 0 solid black;
-  width: 260px;
+  width: 300px;
+  display: block;
+  margin: 50px auto auto auto;
   border-radius: 5px;
-  margin: 20px 20px 10px 20px;
-  padding: 10px 10px 10px 10px;
 }
-
-.text-fieldb {
+.text-field {
   font-size: 14px;
-  border: 0 solid black;
-  width: 260px;
+  border-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
   border-radius: 5px;
-  margin: 0px 20px 10px 20px;
-  padding: 10px 10px 10px 10px;
+  width: 260px;
+  color: #9b9b9b;
 }
 
 .submit-btn {
   font-size: 14px;
   background-color: #1bbc9b;
-  color: white;
-  border: 0 solid black;
-  width: 260px;
+  border-style: none;
+  padding: 10px;
+  margin: auto auto 20px auto;
   border-radius: 5px;
-  margin: 0px 20px 30px 20px;
-  padding: 10px 10px 10px 10px;
+  width: 260px;
+  color: white;
+}
+.submit-btn:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 .links {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .links a {
   font-size: 12px;
   color: #9b9b9b;
-  margin-bottom: 20px;
 }
