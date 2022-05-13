@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.pageCodeit {
+  margin-top: 20px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+.mainimage {
+  background-image: url(../images/hero_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  height: 800px;
+  line-height: 800px;
+}
+.mainword {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.mainword h1 {
+  font-size: 43px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+.mainword h2 {
+  color: white;
+
+  margin-bottom: 70px;
+}
+.mainword a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(150, 150, 212);
+  padding: 15px 30px;
+  background-color: white;
+  border-radius: 10px;
+}

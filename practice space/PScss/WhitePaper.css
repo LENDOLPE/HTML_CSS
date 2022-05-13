@@ -1,3 +1,27 @@
-.div1:nth-child(odd) {
-  color: blue;
+.quote {
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-family: "Nanum Pen Script", cursive;
+  margin-top: 75px;
 }
+
+.figure {
+  margin-top: 50px;
+}
+b {
+  font-size: 96px;
+  position: relative;
+}
+
+.b1 {
+  top: 20px;
+  right: 15px;
+}
+.b2 {
+  top: 80px;
+  left: 15px;
+}
+/*
+이곳에 코드를 작성하세요.
+*/

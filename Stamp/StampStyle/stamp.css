@@ -1,0 +1,19 @@
+.main-background {
+  width: 500px;
+  height: 232px;
+  background-image: url("../images/envelope.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.address {
+  font-family: cursive;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.stampe {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
