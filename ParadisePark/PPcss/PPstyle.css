@@ -3,6 +3,40 @@ body {
   margin: 0;
   min-width: 768px;
 }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.mainlist {
+  list-style-type: none;
+  padding-left: 22px;
+}
+.mainlist li:not(:last-child) {
+  margin-bottom: 30px;
+}
+.mainlist li:last-child {
+  margin-bottom: 60px;
+}
+
+.mainlist li a {
+  text-decoration: none;
+  color: white;
+}
+
+.SnsLogo {
+  margin-top: 25px;
+  text-align: center;
+}
+.SnsLogo a:first-child {
+  margin: 13px;
+}
+.helper {
+  display: inline-block;
+}
 #side-navbar {
   background-color: gray;
   height: 100%;

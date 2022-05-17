@@ -2,41 +2,90 @@ body {
   margin: 0;
   font-family: "Noto Sans KR", sans-serif;
 }
-.pageCodeit {
-  margin-top: 20px;
-  margin-left: 30px;
+
+#navbar {
+  padding: 0 20px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  height: 60px;
+  line-height: 60px;
+}
+
+#logo {
+  font-family: serif;
+  float: left;
+  line-height: 60px;
+}
+
+#logo img {
   vertical-align: middle;
 }
-.mainimage {
-  background-image: url(../images/hero_image.jpg);
-  background-repeat: no-repeat;
+
+.Simplenav {
+  float: right;
+  line-height: normal;
+  vertical-align: middle;
+}
+.Simplenav ul {
+  text-align: center;
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.Simplenav li {
+  float: left;
+  font-size: 16px;
+}
+.Simplenav a {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 60px;
+  display: inline-block;
+}
+.Simplenav a:hover {
+  background-color: #eeeeee;
+}
+
+.hero-header {
+  background-image: url("../images/hero_image.jpg");
   background-size: cover;
   background-position: center center;
+  height: 670px;
   text-align: center;
-  height: 800px;
-  line-height: 800px;
+  line-height: 670px;
 }
-.mainword {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-.mainword h1 {
-  font-size: 43px;
-  font-weight: bold;
-  color: white;
-  margin: 0;
-}
-.mainword h2 {
-  color: white;
 
-  margin-bottom: 70px;
+.hero-header .info {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
 }
-.mainword a {
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(150, 150, 212);
-  padding: 15px 30px;
+
+.hero-header .info h1 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 13px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-header .info h2 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 60px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-header .info a {
+  font-size: 14px;
   background-color: white;
-  border-radius: 10px;
+  color: #464273;
+  padding: 10px 40px;
+  text-decoration: none;
+  border-radius: 5px;
 }
