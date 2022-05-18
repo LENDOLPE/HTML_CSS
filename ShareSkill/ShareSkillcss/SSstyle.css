@@ -1,0 +1,13 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.carousel-item {
+  background-color: grey;
+  height: 400px;
+  width: 100%;
+}
+
+.carousel-item.item1 {
+  background-image: url(../images/guitar.jpg);
+}
